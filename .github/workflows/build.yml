@@ -25,9 +25,4 @@ jobs:
       #   timeout-minutes: 5
       #   env:
       #     SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      uses: sonarsource/sonarqube-scan-action@master
-with:
-  projectBaseDir: .
-  # ... other options
-  sonar.scanner.debug: true
-
+    
